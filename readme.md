@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img alt="Logo do Notes" title="Logo do Notes" src="./assets/icon.png">
+	<img alt="Logo do Notes" title="Logo do Notes" src="./assets/icon.png" width="120px" height="120px">
 </h1>
 <p align="center">
 	<img src="./assets/print1.jpg" height="585px" width="270px">
