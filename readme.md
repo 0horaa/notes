@@ -5,7 +5,7 @@
 	<img src="./assets/print1.jpg" height="585px" width="270px">
     <img src="./assets/print2.jpg" height="585px" width="270px">
 </p>
-<p>
+<p align="center">
     <img src="./assets/print3.jpg" height="585px" width="270px">
     <img src="./assets/print4.jpg" height="585px" width="270px">
 </p>
