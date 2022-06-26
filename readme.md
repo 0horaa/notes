@@ -64,20 +64,9 @@ Obs: um erro comum na instalação dessas ferramentas <strong>no Windows</strong
 - Caso esteja usando um dispositivo físico, baixe o app do Expo na loja de aplicativos do seu celular (Android ou IOS) e então use-o para scannear o código QR que aparece na janela aberta na sua máquina.
 -   Caso esteja usando um emulador, abra-o e clique em  **Run on Android device/emulator.**
 
-- O projeto apresenta uma variada gama de bibliotecas e dependências, as quais você pode instalar usando o terminal. Todas são necessárias para o pleno funcionamento do app. Acesse a linha de comando de seu S.O, navegue até a pasta do Notes e instale as seguintes ferramentas:
+- O projeto apresenta uma variada gama de bibliotecas e dependências, as quais você pode instalar usando o terminal. Todas são necessárias para o pleno funcionamento do app. Acesse a linha de comando de seu S.O, navegue até a pasta do Notes e instale as bibliotecas usando o seguinte comando:
 
-		expo install expo-font @expo-google-fonts/noto-sans
-		expo install @expo-google-fonts/architects-daughter
-		expo install expo-app-loading
-		expo install expo-linear-gradient
-		yarn add react-native-iphone-x-helper
-		yarn add @react-navigation/native@5.9.4
-		expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
-		yarn add @react-navigation/stack@5.14.5
-		expo install react-native-svg
-		yarn add --dev react-native-svg-transformer
-		expo install @react-native-async-storage/async-storage
-		yarn add react-native-uuid
+		yarn install
 
 - Após todo o processo de instalação, você pode executar o projeto via servidor do expo, utilizando o seguinte comando:
 
