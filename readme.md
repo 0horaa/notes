@@ -47,22 +47,7 @@
 
 Obs: um erro comum na instalação dessas ferramentas <strong>no Windows</strong> está relacionado à políticas de segurança do Windows Powershell. Caso enfrente esse erro, você pode ver formas de resolvê-lo <a href="https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema">aqui</a> 
 
-<p>Após isso, acesse o terminal do seu sistema operacional, navegue até a pasta em que você quer testar a aplicação e dê o seguinte comando:</p>
-		
-	expo init notes 
-
--  "notes" é o nome do seu projeto no expo. Espere alguns instantes e então aparecerão opções no terminal para escolha, essas são opções de template para o seu aplicativo. Escolha a opção que mostra  **blank (TypeScript)**
-    
-- Então, espere até que o seu projeto expo seja criado, e então copie os arquivos desse repositório para dentro da pasta criada pelo expo, permitindo que os arquivos do repositório sobrescrevam os arquivos originais.
-    
-- Logo você precisará utilizar um emulador ou um dispositivo físico para o teste do aplicativo, e então inicie o servidor do expo para conseguir rodar a aplicação, você pode fazer isso executando:
-
-		expo start
-
-	Aguarde enquanto o Expo abre uma janela no seu navegador que irá gerenciar a conexão entre sua máquina e o emulador/dispositivo físico.
-
-- Caso esteja usando um dispositivo físico, baixe o app do Expo na loja de aplicativos do seu celular (Android ou IOS) e então use-o para scannear o código QR que aparece na janela aberta na sua máquina.
--   Caso esteja usando um emulador, abra-o e clique em  **Run on Android device/emulator.**
+<p>Após isso, clone o repositório na pasta de sua preferência</p>
 
 - O projeto apresenta uma variada gama de bibliotecas e dependências, as quais você pode instalar usando o terminal. Todas são necessárias para o pleno funcionamento do app. Acesse a linha de comando de seu S.O, navegue até a pasta do Notes e instale as bibliotecas usando o seguinte comando:
 
